@@ -1,0 +1,15 @@
+.status {
+    @apply flex justify-between;
+
+    img {
+        @apply w-14 -my-3 rounded-md;
+    }
+    .text {
+        h1 {
+            @apply mx-2 -my-2 text-lg text-white;
+        }
+        p {
+            @apply text-base mx-2 my-1 text-gray-400;
+        }
+    }
+}

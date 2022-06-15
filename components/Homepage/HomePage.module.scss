@@ -1,0 +1,12 @@
+.body {
+    @apply bg-black min-h-screen ;
+}
+.main {
+    @apply container w-64 h-32 mx-auto relative top-80 ;
+}
+.items {
+    @apply py-4 px-2;
+    h2 {
+        @apply text-white text-2xl mx-12 my-4;
+    }
+}

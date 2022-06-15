@@ -1,0 +1,13 @@
+.nav {
+    @apply container md:w-[75rem] mx-auto my-4 h-14;
+
+    .items {
+        @apply flex md:justify-between items-center px-3 py-3;
+        .list_items {
+            @apply flex;
+            a {
+                @apply mx-2 text-white border-b-2 hover:border-pink-400 transition font-light;
+            }
+        }
+    }
+}

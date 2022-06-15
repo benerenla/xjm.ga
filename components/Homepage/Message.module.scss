@@ -1,0 +1,6 @@
+.body {
+    @apply h-8 bg-neutral-900 my-2 max-w-[14rem];
+    h1 {
+        @apply px-2 py-1 text-sm text-white;
+    }
+} 
